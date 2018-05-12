@@ -129,7 +129,6 @@ var index = -1
 
 function onPlayerReady (event) {
   event.target.playVideo()
-
 }
 
 // 5. The API calls this function when the player's state changes.
@@ -148,7 +147,6 @@ function onPlayerStateChange (event) {
     voteCount = 3
     playNewVideo()
     nowPlaying()
-    
   }
 }
 
