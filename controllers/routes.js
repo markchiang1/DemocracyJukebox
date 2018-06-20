@@ -3,8 +3,8 @@ var express = require('express')
 var router = express.Router()
 var path = require('path')
 var db = require('../models')
-
 var search = require('youtube-search')
+
 var opts = {
   maxResults: 1,
   key: process.env.YT_KEY,
